@@ -2,9 +2,14 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: black;
 }
 
 iframe {
   height: 100vh;
   width: 100vw;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 1250px;
+  border-bottom-left-radius: 0px;
 }
